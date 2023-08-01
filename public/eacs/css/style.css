@@ -1,0 +1,384 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  color: #404040;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 90% !important;
+}
+
+.social-icons {
+  position: fixed;
+  width: 25px;
+  top: 50%;
+  left: 10px;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c7363d;
+}
+
+section,
+footer {
+  padding: 45px 0;
+}
+
+.search-btn {
+  border: none;
+  background: none;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.card-img-overlay .big-post-title {
+  position: absolute;
+  top: 70%;
+  left: 40px;
+  font-size: 18px;
+}
+
+.card-img-overlay .big-post-title:hover {
+  color: #c7363d !important;
+}
+
+.card-img-overlay .small-post-title {
+  position: absolute;
+  top: 70%;
+  left: 20px;
+  font-size: 16px;
+}
+
+.card-img-overlay .small-post-title:hover {
+  color: #c7363d !important;
+}
+
+.card-img-overlay .big-post-date {
+  position: absolute;
+  top: 60%;
+  left: 40px;
+  font-size: 12px;
+}
+
+.card-img-overlay .small-post-date {
+  position: absolute;
+  top: 58%;
+  left: 20px;
+  font-size: 10px;
+}
+
+.button-primary {
+  padding: 10px 30px;
+  background: #0d4077;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-primary:hover {
+  background: #c7363d;
+}
+
+.pagination .page-item.active .page-link {
+  background: #0d4077;
+  color: #fff;
+}
+
+.pagination .page-link {
+  color: #404040;
+}
+
+.pagination .page-link:hover {
+  background: #c7363d;
+  color: #fff;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #c7363d;
+  color: #fff;
+  box-shadow: 0px 7px 19px -6px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  background: #0d4077;
+}
+
+.scroll-to-top:active, .scroll-to-top:focus {
+  border: none;
+  outline: none;
+}
+
+.top-bar {
+  font-size: 14px;
+  background: #0d4077;
+}
+
+.navbar {
+  box-shadow: 0px 7px 19px -6px rgba(0, 0, 0, 0.6);
+}
+
+.navbar .form-control {
+  border: none;
+  border-bottom: 1px solid #acacac;
+  background: #f8f9fa;
+}
+
+.navbar .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0px 7px 19px -6px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #c7363d;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #c7363d;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background: #0d4077;
+  color: #fff;
+}
+
+.feature .card-img {
+  height: 330px;
+  object-fit: cover;
+}
+
+.feature-post-title {
+  position: absolute;
+  top: 75%;
+  left: 20px;
+  font-size: 18px;
+}
+
+.feature-post-title:hover {
+  color: #c7363d !important;
+}
+
+.feature-post-date {
+  position: absolute;
+  top: 65%;
+  left: 20px;
+  font-size: 12px;
+}
+
+footer {
+  background: #0d4077;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer .footer-post-date {
+  font-size: 12px;
+}
+
+footer .footer-post-title {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  padding: 8px 0;
+  background: #c7363d;
+}
+
+.footer-bottom a {
+  color: #fff;
+}
+
+.news-list .news-post-title,
+.news-list .analysis-post-title,
+.news-list .events-post-title,
+.news-list .announcements-post-title,
+.news-list .video-post-title,
+.video-list .news-post-title,
+.video-list .analysis-post-title,
+.video-list .events-post-title,
+.video-list .announcements-post-title,
+.video-list .video-post-title,
+.analysis-list .news-post-title,
+.analysis-list .analysis-post-title,
+.analysis-list .events-post-title,
+.analysis-list .announcements-post-title,
+.analysis-list .video-post-title,
+.announcements-list .news-post-title,
+.announcements-list .analysis-post-title,
+.announcements-list .events-post-title,
+.announcements-list .announcements-post-title,
+.announcements-list .video-post-title,
+.events-list .news-post-title,
+.events-list .analysis-post-title,
+.events-list .events-post-title,
+.events-list .announcements-post-title,
+.events-list .video-post-title {
+  font-size: 18px;
+}
+
+.side-bar h6 {
+  font-size: 15px;
+}
+
+.publication-list .publication-card {
+  border: none;
+  box-shadow: 0px 7px 19px -6px rgba(0, 0, 0, 0.6);
+}
+
+.post .category-item {
+  padding: 8px 15px;
+  font-size: 12px;
+  background: #e0e0e0;
+  color: #c7363d;
+}
+
+.post .social-share .btn-social-share {
+  border: none;
+  padding: 10px 15px;
+  background: #0d4077;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.post .social-share .btn-social-share:hover {
+  background: #c7363d;
+  transform: scale(1.1);
+}
+
+/* scroll bar */
+.scroll_bar {
+  height: 10px;
+  width: 10px;
+  background-color: #c7363d;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.contact-top-header {
+  padding: 45px 0;
+  background: #0d4077;
+  color: #fff;
+}
+
+.contact-bottom-header {
+  padding: 45px 0;
+  background: #c7363d;
+  color: #fff;
+}
+
+.form ::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: #979797;
+}
+
+.form .form-control {
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #0d4077;
+}
+
+.form .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #0d4077;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .card-img-overlay .newsTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+.card .card-img-overlay .newsTitleMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.newsSmallBoxs {
+    height: 190px;
+}
+
+.mainPageGallery {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.mainPageGallery img {
+    height: 100%;
+    object-fit: cover;
+    min-width: 100%;
+}
+
+.card-img-custom {
+    height: 100%;
+    min-height: 378px;
+    object-fit: cover;
+}
+
+.card-custom {
+    height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
